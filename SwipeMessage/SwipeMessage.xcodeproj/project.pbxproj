@@ -11,6 +11,8 @@
 		0E437E432BA8B06D0069252D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E437E422BA8B06D0069252D /* ContentView.swift */; };
 		0E437E452BA8B06E0069252D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E437E442BA8B06E0069252D /* Assets.xcassets */; };
 		0E437E482BA8B06E0069252D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E437E472BA8B06E0069252D /* Preview Assets.xcassets */; };
+		0E437E522BA994200069252D /* TextFixSwipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E437E512BA994200069252D /* TextFixSwipe.swift */; };
+		0E437E542BA99FBD0069252D /* MessageSwipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E437E532BA99FBD0069252D /* MessageSwipe.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		0E437E422BA8B06D0069252D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		0E437E442BA8B06E0069252D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0E437E472BA8B06E0069252D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0E437E512BA994200069252D /* TextFixSwipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFixSwipe.swift; sourceTree = "<group>"; };
+		0E437E532BA99FBD0069252D /* MessageSwipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageSwipe.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +56,8 @@
 			isa = PBXGroup;
 			children = (
 				0E437E402BA8B06D0069252D /* SwipeMessageApp.swift */,
+				0E437E532BA99FBD0069252D /* MessageSwipe.swift */,
+				0E437E512BA994200069252D /* TextFixSwipe.swift */,
 				0E437E422BA8B06D0069252D /* ContentView.swift */,
 				0E437E442BA8B06E0069252D /* Assets.xcassets */,
 				0E437E462BA8B06E0069252D /* Preview Content */,
@@ -139,6 +145,8 @@
 			files = (
 				0E437E432BA8B06D0069252D /* ContentView.swift in Sources */,
 				0E437E412BA8B06D0069252D /* SwipeMessageApp.swift in Sources */,
+				0E437E542BA99FBD0069252D /* MessageSwipe.swift in Sources */,
+				0E437E522BA994200069252D /* TextFixSwipe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
