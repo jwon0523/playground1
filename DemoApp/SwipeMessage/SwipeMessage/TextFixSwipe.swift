@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct TextFixSwipe: View {
-    var message: String = "Good!!"
+    var message: String
     @State var showReplyIcon = false
     @State var dragOffset: CGSize = .zero
     @State var moveLeft = false
@@ -25,7 +25,7 @@ struct TextFixSwipe: View {
                                 .font(.system(size: 12))
                                 .background(.yellow)
                         }
-                        .frame(maxWidth: 300, alignment: .trailing)
+                        .frame(maxWidth: 250, alignment: .trailing)
                         .background(.blue)
                     }
                     .padding()
@@ -59,8 +59,21 @@ struct TextFixSwipe: View {
                             }
                     )
                     if showReplyIcon {
-                        VStack {
+                        HStack {
                             Image(systemName: "square.and.arrow.up.fill")
+                                .frame(width: 35, height: 35)
+                                .background(.gray)
+                                .cornerRadius(20)
+                                .shadow(radius: 2.8)
+                            Spacer()
+                                .frame(width: 8)
+                            Image(systemName: "square.and.arrow.up.fill")
+                                .frame(width: 35, height: 35)
+                                .background(.gray)
+                                .cornerRadius(20)
+                                .shadow(radius: 2.8)
+                            Spacer()
+                                .frame(width: 8)
                         }
                     }
                 }
@@ -73,5 +86,5 @@ struct TextFixSwipe: View {
 }
 
 #Preview {
-    TextFixSwipe()
+    TextFixSwipe(message: "HelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHello")
 }
