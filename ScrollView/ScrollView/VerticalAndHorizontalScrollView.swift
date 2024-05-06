@@ -9,6 +9,10 @@ import SwiftUI
 
 struct VerticalAndHorizontalScrollView: View {
     var body: some View {
+        // 스크롤 바가 나타나지 않음
+        // 스크롤 방향은 vertical과 horizontal을 선택하면 되는데,
+        // vertical 선택시 자식 뷰로 VStack을 선택해 줘야 하고
+        // horiznotal 선택시 자식 뷰로 HStack을 선택해 줘야 함
         ScrollView(.vertical, showsIndicators: false, content:  {
             VStack {
                 ForEach(0..<50) { index in

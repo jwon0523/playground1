@@ -9,6 +9,9 @@ import SwiftUI
 
 struct ScrollViewInScrollView: View {
     var body: some View {
+        // 기본적으로 ScrollView는 vertical로 구성되어 있음
+        // ScrollView안에 ScrollView를 넣어주어 기본적으로는 수직으로 스크롤 하되
+        // 각 행은 horizontal로 스크롤하게 할 수 있음
         ScrollView {
             VStack {
                 ForEach(0..<20) { index in
